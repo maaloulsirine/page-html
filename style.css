@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Work+Sans:wght@300&display=swap');
+
+li{
+    list-style: none;
+}
+
+.menuLogo{
+    width: 268px;
+    height: 33px;
+    margin-top: 8px;
+}
+.menuLogo,.mainMenu,.subMenu:hover{
+    cursor: pointer;
+}
+
+.subMenu{
+    display: none;
+    position: absolute;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    width: 180px;
+    height: 223px;
+    margin-left: -100px;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.mainMenu{
+    display: flex;
+}
+
+.mianMenuItem{
+    margin-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ABABAB;
+}
+.mianMenuItem:hover .subMenu{
+    display: block;
+}
+li:hover{
+    color: #00BFA5;
+}
+.subMenuItem{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ABABAB;
+    height: 28px;
+    width: 180px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+   
+    
+}
+#marketing{
+    margin-top: 8px;
+}
+.subMenuItem:hover{
+    background-color: #F6F8F8;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: #00bfa5;
+}
+.info{   
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px ;
+    text-align: justify;
+   
+  
+    /*padding: 1 1 1 1;top right bottom left ;
+    padding : 1 2; 1-->top,bottom:  2-->right,left;*/
+} 
+ 
+.info p{
+ width: 40%;
+  font: 400 16px roboto,arial,sans-serif;
+  line-height: 28px;
+  color: rgb(116,116,116);
+    
+}
+.service{
+    
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    line-height: 20,8px;
+    text-decoration: none solid #00bfa5;
+    background-color:#00CCB1;
+    height: 345px;
+    width: 311.625px;
+    padding: 32px 32px 0px 32px;
+    border: #00bfa5; 
+    box-sizing: border-box;
+    transform: matrix(1,0,1,0,0);
+   margin-left: 210px;
+   border-style: ridge;
+
+
+
+    
+
+    
+}
+.service img{
+    display:flex ;
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    line-height: 20,8px;
+    height: 24PX;
+    width: 24PX;
+    display: inline;
+    box-sizing: border-box;
+    bottom: 20px;
+
+
+
+
+}
+.service h1{
+    font-family: "work sans , Arial, sans-serif";
+
+font-size: 26px;
+font-weight: 400;
+letter-spacing: -0.3px;
+line-height: 33.8px;
+color: #FFFFFF;
+display: block;
+
+}
+.service h2{
+    font-family: "work sans , Arial, sans-serif";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    height: 86.4px;
+    width: 247.625px;
+    display:block;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-style: oblique;
+    transform: none;
+    box-sizing: border-box;
+
+}
+
+.style-select{
+    font-family: roboto,arial,sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    color: #FFFFFF;
+    height: 40px;
+    width: 172.8px;
+    padding: 0 38px 0 0;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 400;
+padding-left: 100px;
+padding-bottom: 100px;
+color: #FFFFFF;
+text-decoration: solid;
+margin-left: 110px;
+}
+.fade{
+    
+    font-family: roboto,arial,sans-serif;
+        font-size: 16px;
+        line-height: 20,8px;
+        text-decoration: none solid ;
+        background-color: #3D83DF;
+        height: 345px;
+        width: 311.625px;
+        padding: 32px 32px 0px 32px;
+        border: #3D83DF; 
+        box-sizing: border-box;
+        transform: matrix(1,0,1,0,0);
+        margin-left: 500px;
+        border-style: ridge;
+
+ 
+    
+      
+    
+    
+}
