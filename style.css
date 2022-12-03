@@ -99,17 +99,25 @@ li:hover{
     font-family: roboto,arial,sans-serif;
     font-size: 16px;
     line-height: 20,8px;
-    text-decoration: none solid #00bfa5;
-    background-color:#00CCB1;
-    height: 345px;
-    width: 311.625px;
+    text-decoration: none solid ;
+   
+    height: 345px;  
+    width: 311px;
     padding: 32px 32px 0px 32px;
-    border: #00bfa5; 
+    
     box-sizing: border-box;
     transform: matrix(1,0,1,0,0);
-   margin-left: 210px;
-   border-style: ridge;
+    margin-left: 200px;
+    border-style: ridge;
+    text-decoration: none solid #00bfa5;
+    background-color:#00CCB1;
+  flex-direction: column;
+    border: #00bfa5; 
+    
+   
 
+    
+    
 
 
     
@@ -142,7 +150,7 @@ color: #FFFFFF;
 display: block;
 
 }
-.service h2{
+.service p{
     font-family: "work sans , Arial, sans-serif";
     font-size: 24px;
     font-weight: 300;
@@ -182,18 +190,114 @@ margin-left: 110px;
         line-height: 20,8px;
         text-decoration: none solid ;
         background-color: #3D83DF;
-        height: 345px;
-        width: 311.625px;
+        height: 345px;  
+        width: 311px;
         padding: 32px 32px 0px 32px;
         border: #3D83DF; 
         box-sizing: border-box;
         transform: matrix(1,0,1,0,0);
         margin-left: 500px;
         border-style: ridge;
-
+        flex-direction: column;
+        margin-left: 100px;
+       
+        
+        
  
     
       
     
     
+}
+.fade h1{
+    font-family: "work sans , Arial, sans-serif";
+
+font-size: 26px;
+font-weight: 400;
+letter-spacing: -0.3px;
+line-height: 33.8px;
+color: #FFFFFF;
+display: block;
+
+}
+.fade h2{
+    font-family: "work sans , Arial, sans-serif";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    height: 86.4px;
+    width: 247.625px;
+    display:block;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-style: oblique;
+    transform: none;
+    box-sizing: border-box;
+
+}
+
+
+.clinics{
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    line-height: 20,8px;
+    text-decoration: none solid ;
+   
+    height: 345px;  
+    width: 311px;
+    padding: 32px 32px 0px 32px;
+    
+    box-sizing: border-box;
+    transform: matrix(1,0,1,0,0);
+ 
+    border-style: ridge;
+    text-decoration: none solid #1B2734;
+    background-color:#1B2734;
+  
+    border: #1B2734; 
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    
+ 
+
+
+ 
+}
+.clinics h1{
+    font-family: "work sans , Arial, sans-serif";
+
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    line-height: 33.8px;
+    color: #FFFFFF;
+    display: block;
+}
+.clinics p{
+    font-family: "work sans , Arial, sans-serif";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    height: 86.4px;
+    width: 247.625px;
+    display:block;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-style: oblique;
+    transform: none;
+    box-sizing: border-box;
+    
+
+}
+#section2 {
+    display: flex;
+    flex: content;
+    
+}
+#section2 div{
+   
+    width: 311px;
+    height:345 ;
+    flex-direction: column;
 }
